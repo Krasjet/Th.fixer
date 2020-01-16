@@ -104,7 +104,7 @@ For some similar opinions, see
 
 The font used in the first image is [Garibaldi](https://www.harbortype.com/fonts/garibaldi/) by Henrique Beier. It is one of my favorites. The `Th` ligature in the font is discretionary so no patching is required.
 
-The font used in the second image is [Garamond Premier Pro](https://www.harbortype.com/fonts/garibaldi/) by Robert Slimbach.
+The font used in the second image is [Garamond Premier Pro](https://fonts.adobe.com/fonts/garamond-premier) by Robert Slimbach.
 
 ## License
 
