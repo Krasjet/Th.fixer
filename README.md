@@ -1,6 +1,6 @@
 # Th.fixer
 
-[Th.fixer](https://github.com/Krasjet/Th.fixer) is a simple Python script that removes the `Th`, `TT` ligatures (and its friends), which can be found in [Linux Libertine](https://sourceforge.net/projects/linuxlibertine/), [Alegreya](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro), [Cormorant](https://github.com/CatharsisFonts/Cormorant), and many [Adobe Originals](https://www.adobe.com/products/type/adobe-type-originals.html) fonts, from a font's standard ligature set (`'liga'`).
+[Th.fixer](https://github.com/Krasjet/Th.fixer) is a simple Python script that removes the `Th`, `TT` ligatures (and their friends), which can be found in [Linux Libertine](https://sourceforge.net/projects/linuxlibertine/), [Alegreya](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro), [Cormorant](https://github.com/CatharsisFonts/Cormorant), and many [Adobe Originals](https://www.adobe.com/products/type/adobe-type-originals.html) fonts, from a font's standard ligature set (`'liga'`).
 
 ![Th ligatures](./imgs/th_ligature.png)
 
@@ -8,7 +8,7 @@
 
 This is really an opinionated patcher.
 
-I'm not against the `Th` ligature (and the similar `TT` ligature in Cormorant and Adobe Arno Pro). When used correctly, the ligature can look absolutely gorgeous (see the demo of [Hoefler Text](https://www.typography.com/fonts/hoefler-text/overview) and [Expo Serif Pro](https://typeculture.com/foundry/font-collection/expo-serif-pro/) for the correct way to use it). The problem is—in most instances, it should not be turned on **by default**, i.e. as part of the standard ligatures (`'liga'`). I consider this a design flaw, so I would call this script a "fixer" rather than a "patcher".
+I'm not against the `Th` ligature (and the similar `TT` ligature in Cormorant and Adobe Arno Pro) **itself** in particular. When used correctly, the ligature can look absolutely gorgeous (see the demo of [Hoefler Text](https://www.typography.com/fonts/hoefler-text/overview) and [Expo Serif Pro](https://typeculture.com/foundry/font-collection/expo-serif-pro/) for the correct way to use it). The problem is—in most instances, it should not be turned on **by default**, i.e. as part of the standard ligatures (`'liga'`). I consider this a design flaw, so I would call this script a "fixer" rather than a "patcher".
 
 I agree that the spacing between `T` and `h` in some fonts (e.g. Adobe Garamond Pro) appears to be too large if you stare at this combination for long enough, and creating a ligature for them is certainly an easy way to fix this problem.
 
@@ -30,7 +30,7 @@ If you are using professional typesetting software, there are usually workaround
 
 However, not every typesetting software supports a full set of OpenType features and scripting capabilities that allows you to turn on/off a single ligature rule (in fact, most of them don't). This is why I wrote this script.
 
-Unfortunately, many foundries forbid modifications to the font file you purchased (which I think is absurd. Please support [indie foundries](https://www.harbortype.com/about/eula/) with less restrictive licensing terms), so you have to be cautious before you use patched fonts. I also do not recommend distributing patched fonts, either.
+Unfortunately, many foundries forbid modifications to the font file you purchased (which I think is absurd. Please support [indie foundries](https://www.harbortype.com/about/eula/) with less restrictive licensing terms and the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL)), so you have to be cautious before you use patched fonts. I also do not recommend distributing patched fonts, either.
 
 ## Usage
 
@@ -96,7 +96,7 @@ $ ./thfixer.py -stf -d fixed font.otf
 
 For some similar opinions, see
 
-- [The Elements of Typographic Style](https://www.amazon.com/dp/0881792128/) by Robert Bringhurst
+- Section 3.3 of [The Elements of Typographic Style](https://www.amazon.com/dp/0881792128/) by Robert Bringhurst
 - [Flawed Typefaces](https://www.printmag.com/featured/flawed-typefaces/) by Paul Shaw
 - [Butterick’s Practical Typography - Ligatures](https://practicaltypography.com/ligatures.html) by Matthew Butterick
 
